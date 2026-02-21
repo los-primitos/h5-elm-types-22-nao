@@ -1,7 +1,7 @@
 module Helper exposing (..)
 
-
 -- 1️
+
 
 type GradeStatus
     = Approved
@@ -28,6 +28,7 @@ categoricalGrade grades =
 
 -- 2️
 
+
 type AirplaneStatus
     = OnTime
     | Boarding
@@ -37,6 +38,7 @@ type AirplaneStatus
 
 
 -- 2.2
+
 
 airplaneScheduleAction : AirplaneStatus -> String
 airplaneScheduleAction status =
@@ -56,6 +58,7 @@ airplaneScheduleAction status =
 
 
 -- 2.3
+
 
 airportAction : List AirplaneStatus -> List String
 airportAction statusList =
